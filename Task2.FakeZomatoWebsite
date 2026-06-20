@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zomato</title>
+</head>
+
+<body>
+
+<center>
+    <h1>ZOMATO</h1>
+    <h3>Discover the Best Food & Drinks</h3>
+    <hr width="60%">
+</center>
+
+<h2>About Zomato</h2>
+
+<p>
+Welcome to Zomato, your one-stop destination for delicious food.
+Explore mouth-watering dishes, read customer reviews, and order your favorite meals.
+</p>
+
+<hr>
+
+<h2>Menu</h2>
+
+<table border="1" cellpadding="10" width="80%">
+
+<tr>
+<th>Dish Name</th>
+<th>Cuisine</th>
+<th>Price</th>
+</tr>
+
+<tr>
+<td>Margherita Pizza</td>
+<td>Italian</td>
+<td>₹299</td>
+</tr>
+
+<tr>
+<td>Veg Biryani</td>
+<td>Indian</td>
+<td>₹199</td>
+</tr>
+
+<tr>
+<td>Paneer Butter Masala</td>
+<td>North Indian</td>
+<td>₹249</td>
+</tr>
+
+<tr>
+<td>Masala Dosa</td>
+<td>South Indian</td>
+<td>₹149</td>
+</tr>
+
+<tr>
+<td>Chocolate Brownie</td>
+<td>Dessert</td>
+<td>₹129</td>
+</tr>
+
+</table>
+
+<hr>
+
+<h2>Customer Reviews</h2>
+
+<ul>
+
+<li>★★★★★ Amazing taste and quick delivery.</li>
+
+<li>★★★★★ Fresh food and excellent service.</li>
+
+<li>★★★★☆ Affordable prices and great quality.</li>
+
+<li>★★★★★ One of the best food experiences.</li>
+
+<li>★★★★☆ Loved the desserts and beverages.</li>
+
+</ul>
+
+<hr>
+
+<h2>Place Your Order</h2>
+
+<form>
+
+<label>Customer Name:</label>
+<br>
+<input type="text">
+
+<br><br>
+
+<label>Mobile Number:</label>
+<br>
+<input type="tel">
+
+<br><br>
+
+<label>Select Your Dish:</label>
+<br>
+
+<select>
+
+<option>Margherita Pizza</option>
+
+<option>Veg Biryani</option>
+
+<option>Paneer Butter Masala</option>
+
+<option>Masala Dosa</option>
+
+<option>Chocolate Brownie</option>
+
+</select>
+
+<br><br>
+
+<label>Quantity:</label>
+<br>
+<input type="number">
+
+<br><br>
+
+<input type="submit" value="Order Now">
+
+</form>
+
+<hr>
+
+<h2>Popular Categories</h2>
+
+<ol>
+
+<li>Pizza</li>
+
+<li>Biryani</li>
+
+<li>North Indian</li>
+
+<li>South Indian</li>
+
+<li>Desserts</li>
+
+</ol>
+
+<hr>
+
+<center>
+
+<h2>Contact Us</h2>
+
+<p>
+Email: support@zomato.com
+<br>
+Phone: +91 9876543210
+<br>
+Address: Panipat, Haryana
+</p>
+
+<hr width="50%">
+
+<h3>
+Good Food • Good Mood
+</h3>
+
+<h4>
+Thank You For Visiting Zomato!
+</h4>
+
+</center>
+
+</body>
+</html>
