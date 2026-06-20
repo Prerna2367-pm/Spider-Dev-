@@ -4,6 +4,8 @@ HTML Assignment Collection
 
 This repository contains four HTML projects created using only HTML elements without CSS.
 
+---
+
 Assignment 1: Meme Webpage
 
 Created a fun and interactive meme webpage using headings, images, and paragraphs. Different meme sections were added with relatable captions to make the webpage entertaining and visually appealing.
