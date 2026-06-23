@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.netflix-btn {
+    background-color: #E50914;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.netflix-btn:hover {
+    background-color: #F6121D;
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(229, 9, 20, 0.4);
+}
+
+.netflix-btn:active {
+    transform: scale(0.98);
+}
+</style>
+</head>
+<body>
+
+<button class="netflix-btn">Get Started ></button>
+
+</body>
+</html>
