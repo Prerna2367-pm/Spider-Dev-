@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            text-align: center;
+            width: 320px;
+        }
+
+        input {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        #result {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Student Grade Calculator</h2>
+
+    <input type="number" id="marks" placeholder="Enter Marks (0-100)">
+    <br>
+
+    <button onclick="calculateGrade()">Calculate Grade</button>
+
+    <div id="result"></div>
+</div>
+
+<script>
+function calculateGrade() {
+    let marks = Number(document.getElementById("marks").value);
+    let grade, status;
+
+    if (marks < 0 || marks > 100 || isNaN(marks)) {
+        document.getElementById("result").innerHTML =
+            "Please enter valid marks between 0 and 100.";
+        return;
+    }
+
+    if (marks >= 90) {
+        grade = "A";
+    } else if (marks >= 75) {
+        grade = "B";
+    } else if (marks >= 60) {
+        grade = "C";
+    } else {
+        grade = "D";
+    }
+
+    if (marks >= 60) {
+        status = "Pass";
+    } else {
+        status = "Fail";
+    }
+
+    document.getElementById("result").innerHTML =
+        "Grade: <b>" + grade + "</b><br>Status: <b>" + status + "</b>";
+}
+</script>
+
+</body>
+</html>
