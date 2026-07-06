@@ -1,81 +1,53 @@
-# Spider-Dev-
+🌐 Web Development Tasks – Spider-Dev SSSC'26
 
-HTML Assignment Collection
+This repository contains all the Web Development Minor and Major Tasks completed by me during the Spider-Dev SSSC'26 Program organized by TechNeeds, IGDTUW.
 
-This repository contains four HTML projects created using only HTML elements without CSS.
+📌 About the Program
 
----
+The Spider-Dev SSSC'26 Program is a structured learning initiative aimed at building a strong foundation in web development through hands-on assignments and projects. Over the course of six weeks, I completed various minor and major tasks that enhanced my understanding of modern web development concepts and best practices.
 
-Assignment 1: Meme Webpage
+📂 Repository Structure
 
-Created a fun and interactive meme webpage using headings, images, and paragraphs. Different meme sections were added with relatable captions to make the webpage entertaining and visually appealing.
+The repository is organized week-wise for better navigation.
 
-Features
+├── Week 1/
+├── Week 2/
+├── Week 3/
+├── Week 4/
+├── Week 5/
+├── Week 6/
+└── README.md
 
-- Multiple meme sections
-- Images and captions
-- Headings and paragraphs
-- HTML only (No CSS)
+Each week's folder contains the respective Minor and/or Major tasks along with the required source code and assets.
 
----
-
-Assignment 2: Fake Zomato Restaurant Page
-
-Designed a fake Zomato webpage with menu items, customer reviews, and an order form.
-
-Features
-
-- Menu displayed as a table
-- Customer reviews displayed as a list
-- Order button implemented using a form
-- Contact information and food categories
-- HTML only (No CSS)
-
----
-
-Assignment 3: Shaadi.com Profile Form
-
-Developed a profile creation page inspired by Shaadi.com using different HTML input types.
-
-Features
-
-- Text, email, date, radio, checkbox, and file inputs
-- Personal, educational, professional, and family details
-- Partner preferences section
-- Submit and reset buttons
-- HTML only (No CSS)
-
----
-
-Assignment 4: Personal Portfolio
-
-Created a personal portfolio website based on my resume.
-
-Features
-
-- About Me section
-- Education details
-- Technical skills
-- Leadership experience
-- Projects and achievements
-- Contact information and social links
-- HTML only (No CSS)
-
----
-
-Technologies Used
+🚀 Technologies Used
 
 - HTML5
+- CSS3
+- JavaScript (ES6+)
+- Responsive Web Design
+- Git & GitHub
 
-Tools Used
+📚 What I Learned
 
-- Visual Studio Code
-- Google Chrome
+Throughout this program, I gained practical experience in:
 
-Author
+- Building responsive and accessible web pages
+- Writing semantic HTML
+- Creating modern UI layouts with CSS
+- Adding interactivity using JavaScript
+- Debugging and optimizing web applications
+- Version control using Git and GitHub
+- Applying best practices in front-end development
 
-Prerna Mehta
+🎯 Purpose
 
-Note
+This repository documents my progress and learning throughout the Spider-Dev SSSC'26 Program. It serves as a portfolio of the tasks and projects I completed during the six-week journey.
 
-All projects were created using only HTML elements as per the assignment requirements. No CSS or JavaScript was used.
+🙏 Acknowledgements
+
+Special thanks to TechNeeds, IGDTUW, the mentors, and the entire Spider-Dev team for providing an engaging learning environment, valuable guidance, and continuous support throughout the program.
+
+---
+
+⭐ If you found this repository interesting, feel free to explore the weekly tasks and leave a star!
