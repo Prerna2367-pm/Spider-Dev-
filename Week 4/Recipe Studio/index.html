@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Studio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header>
+
+    <div class="logo">
+        <i class="fa-solid fa-utensils"></i>
+        <h2>Recipe Studio</h2>
+    </div>
+
+    <nav>
+
+        <a href="#home">Home</a>
+        <a href="#recipes">Recipes</a>
+        <a href="#planner">Planner</a>
+        <a href="#favorites">Favorites</a>
+
+        <button id="themeBtn">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+
+    </nav>
+
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+    <h1>Discover Delicious Recipes</h1>
+
+    <p>
+        Search, cook, save your favourite recipes,
+        create shopping lists and plan your weekly meals.
+    </p>
+
+    <div class="search-box">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search recipes...">
+
+        <button id="searchBtn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            Search
+        </button>
+
+    </div>
+
+</section>
+
+<!-- ================= FILTER ================= -->
+
+<section class="filter-section">
+
+<select id="categoryFilter">
+
+<option value="all">All Categories</option>
+
+<option value="Breakfast">Breakfast</option>
+
+<option value="Lunch">Lunch</option>
+
+<option value="Dinner">Dinner</option>
+
+<option value="Dessert">Dessert</option>
+
+<option value="Snack">Snack</option>
+
+</select>
+
+<button id="randomRecipe">
+
+🎲 Random Recipe
+
+</button>
+
+</section>
+
+<!-- ================= RECIPES ================= -->
+
+<section id="recipes">
+
+<h2>Popular Recipes</h2>
+
+<div class="recipe-container" id="recipeContainer">
+
+<!-- Recipe cards added using JavaScript -->
+
+</div>
+
+</section>
+
+<!-- ================= MODAL ================= -->
+
+<div class="recipe-modal" id="recipeModal">
+
+<div class="modal-content">
+
+<span id="closeModal">&times;</span>
+
+<img id="modalImage" src="" alt="Recipe Image">
+
+<h2 id="modalTitle"></h2>
+
+<p id="modalCategory"></p>
+
+<h3>Ingredients</h3>
+
+<ul id="ingredients"></ul>
+
+<h3>Instructions</h3>
+
+<p id="instructions"></p>
+
+<div class="modal-buttons">
+
+<button id="favoriteBtn">
+
+❤️ Add to Favorites
+
+</button>
+
+<button id="shareBtn">
+
+📤 Share
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ================= FAVORITES ================= -->
+
+<section id="favorites">
+
+<h2>Favorite Recipes ❤️</h2>
+
+<div class="recipe-container" id="favoriteContainer">
+
+</div>
+
+</section>
+
+<!-- ================= MEAL PLANNER ================= -->
+
+<section id="planner">
+
+<h2>Weekly Meal Planner</h2>
+
+<div class="planner-grid">
+
+<div class="day">Monday</div>
+
+<div class="day">Tuesday</div>
+
+<div class="day">Wednesday</div>
+
+<div class="day">Thursday</div>
+
+<div class="day">Friday</div>
+
+<div class="day">Saturday</div>
+
+<div class="day">Sunday</div>
+
+</div>
+
+</section>
+
+<!-- ================= SHOPPING LIST ================= -->
+
+<section>
+
+<h2>Shopping List</h2>
+
+<ul id="shoppingList">
+
+<li>No ingredients yet.</li>
+
+</ul>
+
+<button id="generateList">
+
+Generate Shopping List
+
+</button>
+
+</section>
+
+<!-- ================= TIMER ================= -->
+
+<section class="timer">
+
+<h2>Cooking Timer</h2>
+
+<h1 id="time">
+
+00:00
+
+</h1>
+
+<div class="timer-buttons">
+
+<button id="startTimer">
+
+Start
+
+</button>
+
+<button id="pauseTimer">
+
+Pause
+
+</button>
+
+<button id="resetTimer">
+
+Reset
+
+</button>
+
+</div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<p>
+
+Made with ❤️ by Prerna Mehta
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
